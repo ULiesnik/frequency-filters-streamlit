@@ -1,0 +1,19 @@
+## **Hi there! Here are some tips for you.** ##
+
+This app gives user opportunity to apply different custum frequency filters to uploaded image. All filters are based on discrete Fourier transform. At the moment you can use them only for grayscaled images.
+
+Using this app you can see ***magnitude spectrum*** for both original and changed image and save any of them as well as the result. These spectrum images represent "how much" of a certain frequency component is present in the photo. All of them are made with logarithmic scale. They are also shifted so that lower frequencies were shown closer to image center. 
+
+There are 4 types of filters you can use here. 
+
+***Low pass*** one will change all frequencies further from center then set cut-off distance value. You can either lower them or make them even higher. Pay attention that high frequencies correspond to sharp intensity changes, like the fine-scale details and noise in the spatial domain image.
+
+Then there is ***high pass*** filter which behaves completely opposite. It will effect only those frequencies which are closer to spectrum center then cut-off you set. Usually areas of rather constant graylevel consist of low frequencies. 
+
+***Bond stop*** option lets you change all frequencies between two values you set. 
+
+***Bond pass*** filter on the other hand changes all frequencies but those between set distances.
+
+Hope this was useful for you.
+
+Good luck!
