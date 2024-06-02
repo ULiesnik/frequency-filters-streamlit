@@ -47,13 +47,13 @@ def d_values(_ft):
 
 
 def apply_filter(_filter, _d0, _d1, _coef):
-    if _filter == "Low pass":
+    if _filter == "З пропуском низьких частот":
         st.session_state["filtered_ft"] = lowpass_filter(st.session_state["original_ft"], _d0, _coef)
-    if _filter == "High pass":
+    if _filter == "З пропуском високих частот":
         st.session_state["filtered_ft"] = highpass_filter(st.session_state["original_ft"], _d0, _coef)
-    if _filter == "Bond stop":
+    if _filter == "Смуговий 1":
         st.session_state["filtered_ft"] = bondstop_filter(st.session_state["original_ft"], _d0, _d1, _coef)
-    if _filter == "Bond pass":
+    if _filter == "Смуговий 2":
         st.session_state["filtered_ft"] = bondpass_filter(st.session_state["original_ft"], _d0, _d1, _coef)
 
 

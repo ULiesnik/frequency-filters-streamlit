@@ -1,19 +1,19 @@
-## **Hi there! Here are some tips for you.** ##
+## **Привіт! Ви новачок у цій темі? Перш ніж почати, прочитайте кілька порад.** ##
 
-This app gives user opportunity to apply different custum frequency filters to uploaded image. All filters are based on discrete Fourier transform. At the moment you can use them only for grayscaled images.
+Цей застосунок дає користувачеві застосувати різні налаштовані вручну фільтри до завантажених зображень. Станом на сьогодні доступні лише фільтри для чорно-білих світлин.
 
-Using this app you can see ***magnitude spectrum*** for both original and changed image and save any of them as well as the result. These spectrum images represent "how much" of a certain frequency component is present in the photo. All of them are made with logarithmic scale. They are also shifted so that lower frequencies were shown closer to image center. 
+Використовуючи цей додаток, Ви можете побачити ***спектр величин*** як для оригінального фото, так і для зміненого та зберегти будь-яке із них. Зображення спектру певною мірою вказують, "скільки" тої чи іншої частотної компоненти присутньо на фото. Всі вони відображені ла логарифмічній шкалі. Вони також зміщені, щоб нижчі частоти було розташовано ближче до центру. 
 
-There are 4 types of filters you can use here. 
+Програма підтримує чотири різних типи фільтрів. 
 
-***Low pass*** one will change all frequencies further from center then set cut-off distance value. You can either lower them or make them even higher. Pay attention that high frequencies correspond to sharp intensity changes, like the fine-scale details and noise in the spatial domain image.
+***Той, що з пропуском низьких частот*** змінить всі елементи далі від центру, ніж задане значення зрізу. Ви можете як знизити їх значення, так і підвищити їх. Зверніть увагу, що високі частоти на фото відповідають за різкі зміни інтенсивності, такі як у дрібних деталей у просторовій області. Також вони можуть відображати шум.
 
-Then there is ***high pass*** filter which behaves completely opposite. It will effect only those frequencies which are closer to spectrum center then cut-off you set. Usually areas of rather constant graylevel consist of low frequencies. 
+Тоді є фільтр, що ***пропускає високі частоти***. Він поводиться з точністю до навпаки. Такий фільтр змінить всі значення частот, що ближчі до центру, ніж пропонований зріз. Низькі частоти відповідають за частини зображення з порівняно рівномірними значеннями сірого. 
 
-***Bond stop*** option lets you change all frequencies between two values you set. 
+***Перший із смугових фільтрів*** дозволить Вам змінити значення всіх частот, що потрапляють у заданий в налаштуваннях діапазон. 
 
-***Bond pass*** filter on the other hand changes all frequencies but those between set distances.
+***Другий смуговий фільтр*** змінить значення по центру та по краях спектру, але не зачепить тих між двома заданими значеннями.
 
-Hope this was useful for you.
+Удачі!
 
-Good luck!
+;)

@@ -1,41 +1,41 @@
 [
     {
-        "Descryption":"Original image | Max cut-off value is 500 :",
+        "Descryption":"Оригінальне зображення | Max значення зрізу 500 :",
         "Spectrum":"examples/spectr_image6.jpg",
         "Image":"examples/grayscale_image6.jpg"
     },
     {
-        "Descryption":"Low pass filter | d0=250 | coef=0,5 :",
+        "Descryption":"Пропуск низьких частот | d0=250 | коефіцієнт=0,5 :",
         "Spectrum":"examples/filtered_spectr_image6_250_05_l.jpg",
         "Image":"examples/filtered_image6_250_05_l.jpg"
     },
     {
-        "Descryption":"Low pass filter | d0=250 | coef=3 :",
+        "Descryption":"Пропуск низьких частот | d0=250 | коефіцієнт=3 :",
         "Spectrum":"examples/filtered_spectr_image6_250_3_l.jpg",
         "Image":"examples/filtered_image6_250_3_l.jpg"
     },
     {
-        "Descryption":"High pass filter | d0=200 | coef=1,5 :",
+        "Descryption":"Пропуск виисоких частот | d0=200 | коефіцієнт=1,5 :",
         "Spectrum":"examples/filtered_spectr_image6_200_15_h.jpg",
         "Image":"examples/filtered_image6_200_15_h.jpg"
     },
     {
-        "Descryption":"High pass filter | d0=50 | coef=0 :",
+        "Descryption":"Пропуск високих частот  | d0=50 | коефіцієнт=0 :",
         "Spectrum":"examples/filtered_spectr_image6_50_0_h.jpg",
         "Image":"examples/filtered_image6_50_0_h.jpg"
     },
     {
-        "Descryption":"Bond stop filter | d0=200, d1=300 | coef=2 :",
+        "Descryption":"Смуговий фільтр 1 | d0=200, d1=300 | коефіцієнт=2 :",
         "Spectrum":"examples/filtered_spectr_image6_200_300_2_bs.jpg",
         "Image":"examples/filtered_image6_200_300_2_bs.jpg"
     },
     {
-        "Descryption":"Bond stop filter | d0=100, d1=300 | coef=0 :",
+        "Descryption":"Смуговий фільтр 1 | d0=100, d1=300 | коефіцієнт=0 :",
         "Spectrum":"examples/filtered_spectr_image6_100_300_0_bs.jpg",
         "Image":"examples/filtered_image6_100_300_0_bs.jpg"
     },
     {
-        "Descryption":"Bond pass filter | d0=10, d1=400 | coef=0,6 :",
+        "Descryption":"Смуговий фільтр 3| d0=10, d1=400 | коефіцієнт=0,6 :",
         "Spectrum":"examples/filtered_spectr_image6_10_400_bp.jpg",
         "Image":"examples/filtered_image6_10_400_bp.jpg"
     }   
