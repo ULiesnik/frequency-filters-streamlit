@@ -15,6 +15,18 @@ image_file = st.file_uploader("Оберіть зображення, щоб по�
                     on_change=img_changed,
                     help="Всі результати попередніх дій буде втрачено " \
                     "щоразу, коли буде завантажено новий файл")
+css='''
+<style>
+[data-testid="stFileUploaderDropzone"] div div::before {content:"Оберіть файл чи підтягніть його сюди"}
+[data-testid="stFileUploaderDropzone"] div div span{display:none;}
+[data-testid="stFileUploaderDropzone"] div div::after {color:red; font-size: .8em; content:"Ліміт: 200MB для одного файлу"}
+[data-testid="stFileUploaderDropzone"] div div small{display:none;}
+[data-testid="stFileUploaderDropzone"] button {visibility: hidden;}
+[data-testid="stFileUploaderDropzone"] button::after {content:"Шукати файл";  visibility: visible;}
+</style>
+'''
+
+st.markdown(css, unsafe_allow_html=True)
 
 if image_file is not None:
 
