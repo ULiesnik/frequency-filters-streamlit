@@ -15,7 +15,7 @@
         "Image":"examples/filtered_image6_250_3_l.jpg"
     },
     {
-        "Descryption":"Пропуск виисоких частот | d0=200 | коефіцієнт=1,5 :",
+        "Descryption":"Пропуск високих частот | d0=200 | коефіцієнт=1,5 :",
         "Spectrum":"examples/filtered_spectr_image6_200_15_h.jpg",
         "Image":"examples/filtered_image6_200_15_h.jpg"
     },
@@ -35,7 +35,7 @@
         "Image":"examples/filtered_image6_100_300_0_bs.jpg"
     },
     {
-        "Descryption":"Смуговий фільтр 3| d0=10, d1=400 | коефіцієнт=0,6 :",
+        "Descryption":"Смуговий фільтр 2| d0=10, d1=400 | коефіцієнт=0,6 :",
         "Spectrum":"examples/filtered_spectr_image6_10_400_bp.jpg",
         "Image":"examples/filtered_image6_10_400_bp.jpg"
     }   
